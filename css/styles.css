@@ -73,10 +73,12 @@ margin-right: auto;
     gap: 50px;
 }
 
-.logo {
+.logo-header {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
+    padding-top: 24px;
+    padding-bottom: 25px;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
     color: var(--logo-black-cl);
@@ -216,6 +218,14 @@ margin-right: auto;
 
 .footer {
     background-color: var(--bg-cl-dark);
+}
+
+.logo-footer {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
 }
 
 .logo-text-white {
