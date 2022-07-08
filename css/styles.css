@@ -107,6 +107,7 @@ img {
     letter-spacing: 0.03em;
     color: var(--logo-black-cl);
     margin-right: 93px;
+    display: block;
 }
 
 .logo-text {
@@ -122,6 +123,7 @@ img {
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     color: var(--title-txt-cl);
+    display: block;
 }
 
 .header-nav-link:hover,
@@ -135,14 +137,15 @@ img {
 
 .contact-mail-link,
 .contact-phone-link {
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-
     color: var(--secondary-txt-cl)
+    
 }
 
 .contact-mail-link:hover,
@@ -197,6 +200,21 @@ img {
 }
 
 /* Advantage */
+
+.advantage-title,
+.portfolio-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .advantage-list {
     display: flex;
